@@ -30,7 +30,7 @@ def paraCek(hesap, miktar):
                 hesap['bakiye'] = 0
                 print(f"kalan bakiye : {hesap['bakiye']}\nek hesap bakiye : {hesap['ekHesap']}")
             else:
-                print(f"{hesap['hesapNo']} nolu hesabınızda {hesap[bakiye]} tl bakiyeniz bulunmaktadır..\n")
+                print(f"{hesap['hesapNo']} nolu hesabınızda {hesap['bakiye']} tl bakiyeniz bulunmaktadır..\n")
         else:
             print("üzgünüz, bakiye yetersiz..\nbakiye : {hesap['bakiye']}\n")
 

@@ -1,3 +1,3 @@
-# Bankamatik Uygulaması
-Hesap objesi kullanarak bakiye ve ek hesap kullanımıyla;
-para yatırma/çekme ,bakiye görüntüleme işlemleri yapan bankamatik uygulaması.
+# Quiz Uygulaması
+Sistemdeki sorular ile quiz yaparak score tutulur.
+Class yapısı kullanılmıştır.
