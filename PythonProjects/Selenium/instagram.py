@@ -1,4 +1,4 @@
-from Selenium.instagramUserInfo import username, password
+from instagramUserInfo import username, password
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
