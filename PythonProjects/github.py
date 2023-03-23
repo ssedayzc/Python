@@ -2,15 +2,15 @@ from githubUserInfo import username, password
 from selenium import webdriver
 import time
 
-class Github :
-
-    def __init__ (self, username, password) :
+class Github:
+    def __init__(self, username, password):
         self.browser = webdriver.Chrome()
         self.username = username
         self.password = password
+        self.followers = []
 
     def signIn(self):
-        self.browser.get("y")
+        self.browser.get("https://github.com/login")
         time.sleep(2)
 
         self.browser.find_element_by_xpath("//*[@id='login_field']").send_keys(self.username)
@@ -59,4 +59,3 @@ github.signIn()
 github.getFollowers()
 print(len(github.followers))
 print(github.followers)
-    
